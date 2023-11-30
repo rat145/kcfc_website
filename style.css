@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 70%;
+    padding-top: 30px;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #2c2c2c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #20204f;
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+}
+#logo:hover {
+    cursor: pointer;
+}
+
+#button1{
+    padding: 12px 18px;
+    background-color: #20204f;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#button1:hover {
+    background-color: #343467;
+    cursor: pointer;
+}
+
+ul li:hover {
+    font-weight: 600;
+}
+
+.left-content {
+    border-style: none;
+    margin: 20px 50px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    max-width: 48%;
+}
+
+#title {
+    font-family: 'Black Ops One', poppins;
+    color: #20204f;
+    font-size: 100px;
+}
+#subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #464646;
+    padding-bottom: 10px;
+}
+#para {
+    font-family: 18px;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;    
+    padding-top: 10px;
+}
+
+#button2{
+    padding: 12px 18px;
+    border: solid;
+    color: #343467;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#button2:hover {
+    background-color: #343467;
+    color: #fff;
+    cursor: pointer;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+}
